@@ -1,0 +1,14 @@
+.footer {
+    padding: 2rem;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FF8500;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer h2 {
+    color: #FF8500;
+    margin-bottom: 1.5rem;
+}

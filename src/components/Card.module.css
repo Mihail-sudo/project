@@ -1,0 +1,27 @@
+.card {
+    width: 18rem;
+    height: 15rem;
+
+    border: solid;
+    border-radius: 0.75rem;
+
+    padding: 1rem 0.5rem 0;
+    font-size: 0.8rem;
+
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+    text-shadow: 0 0 1px #000;
+}
+
+.card:hover {
+    box-shadow: 0.3rem 0.3rem 0.7rem rgba(0, 0, 0, 0.4);
+    transition-duration: 0.2s;
+}

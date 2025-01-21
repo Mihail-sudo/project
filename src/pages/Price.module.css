@@ -1,0 +1,30 @@
+.button {
+    width: 100%;
+    border: none;
+    background-color: rgb(252, 255, 255);
+    border-bottom: solid;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.inactive {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+    color: rgba(0, 0, 0, 1);
+}
+
+.inactive:hover {
+    color: #f07d44;
+    transition: 0.3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.centered_text {
+    text-align: center;
+}
